@@ -38,7 +38,7 @@ class BackpackTask:
             ("Umbrella", 73, 40),
             ("Waterproof trousers", 42, 70),
             ("Waterproof raincoat", 43, 75),
-            ("Тote-case", 22, 80),
+            ("Note-case", 22, 80),
             ("Sunglasses", 7, 20),
             ("Towel", 18, 12),
             ("Socks", 4, 50),
