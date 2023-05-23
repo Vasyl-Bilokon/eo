@@ -96,11 +96,12 @@ def main():
 
     # plot statistics:
     sns.set_style("whitegrid")
-    plt.plot(maxFitnessValues, color='red')
-    plt.plot(meanFitnessValues, color='green')
+    plt.plot(maxFitnessValues, label='Max Fitness', color='blue')
+    plt.plot(meanFitnessValues, label='Average Fitness', color='green')
     plt.xlabel('Generation')
     plt.ylabel('Max / Average Fitness')
     plt.title('Max and Average fitness over Generations')
+    plt.legend()
     plt.show()
 
 
